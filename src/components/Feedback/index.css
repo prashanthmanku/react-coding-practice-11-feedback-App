@@ -1,0 +1,65 @@
+/* Write your CSS code here. */
+.feedback-bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thank-you-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 40px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  font-size: 19px;
+  color: #0f172a;
+  font-weight: 600;
+}
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  width: 80%;
+}
+.emoji-item-container {
+}
+.emoji-image {
+  width: 50px;
+}
+.emoji-name {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 400;
+}
+.love-emoji {
+  width: 90px;
+}
+.thank-text {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 600;
+}
+.thank-you-description {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 400;
+}
